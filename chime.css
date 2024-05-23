@@ -1,0 +1,762 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@800&family=Open+Sans:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@400;500;600&display=swap");
+
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 1.063rem;
+}
+#logo {
+  position: absolute;
+  padding-bottom: 3rem;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 4.7rem;
+  position: fixed;
+  top: 0;
+  padding: 0.6rem 9.375rem;
+  margin: 0;
+  z-index: 2;
+  border-bottom: 1px solid rgb(212, 209, 209);
+}
+.navlinks {
+  position: absolute;
+  left: 25%;
+  bottom: 24%;
+  display: flex;
+  gap: 1.875rem;
+}
+.navlinks a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+.navlinks a:hover {
+  color: rgb(30, 198, 119);
+}
+.navbtn {
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  padding: 0.1rem;
+  padding-bottom: 3rem;
+}
+button {
+  border: none;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  background: none;
+}
+button:hover {
+  color: rgb(30, 198, 119);
+}
+.btn {
+  width: 12.5rem;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  height: 3rem;
+  background-color: rgb(30, 198, 119);
+  border-radius: 0.6rem;
+  border: none;
+}
+.btn:hover {
+  color: black;
+  background-color: rgb(13, 146, 84);
+}
+#herosection {
+  background-image: url("https://www.chime.com/wp-content/uploads/2023/03/Web-01-App-Desktop-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 130vh;
+  width: 100vw;
+  position: relative;
+}
+#centeredtext {
+  position: absolute;
+  color: #fff;
+  top: 20%;
+  left: 10%;
+}
+#centeredtext h1 {
+  font-size: 4.188rem;
+}
+#email {
+  width: 33rem;
+  height: 3rem;
+  border-radius: 1.875rem;
+}
+#herobtn {
+  width: 12.5rem;
+  color: black;
+  margin-left: 0.6rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  height: 3rem;
+  background-color: rgb(30, 198, 119);
+  border-radius: 1.875rem;
+  border: none;
+}
+#imagesymbol {
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
+  margin-top: 25rem;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 6rem;
+}
+#wjs {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+#forbes {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+#nyt {
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+#usatoday {
+  position: absolute;
+  right: 30%;
+  top: 20%;
+}
+#tc {
+  position: absolute;
+  right: 20%;
+  top: 20%;
+}
+#section2 {
+  position: relative;
+  width: 100%;
+  height: 43.75rem;
+}
+#section2 div {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+}
+#section2 div h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+#sec2btn {
+  width: 9.37rem;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  height: 3rem;
+  border-radius: 1.875rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+#sec2btn:hover {
+  background-color: black;
+  color: #fff;
+  font-weight: lighter;
+}
+#sec2img {
+  position: absolute;
+  padding-left: 37.5rem;
+}
+#section3 {
+  position: relative;
+  width: 100%;
+  height: 31.25rem;
+  background-color: rgb(250, 250, 250);
+}
+#section3 div {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+}
+#getpaid {
+  position: absolute;
+  padding-left: 45rem;
+  padding-bottom: 1.875rem;
+}
+#getpaid h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 1.3rem;
+}
+#section4 {
+  position: relative;
+  width: 100%;
+  height: 37.5rem;
+}
+#section4 div {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+#section4 div h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 1.3rem;
+  color: black;
+}
+#section5 {
+  position: relative;
+  width: 100%;
+  height: 31.25rem;
+  background-color: rgb(250, 250, 250);
+}
+#Creditcard {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+#CreditBuilder {
+  position: absolute;
+  left: 10%;
+  padding-left: 45rem;
+  padding-bottom: 1.875rem;
+}
+#CreditBuilder h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 3rem;
+  color: black;
+}
+#section6 {
+  position: relative;
+  width: 100%;
+  height: 43.75rem;
+}
+#payment {
+  position: absolute;
+  top: 27%;
+  left: 10%;
+  padding-bottom: 1.875rem;
+}
+#payment h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 3rem;
+  color: black;
+}
+#phone {
+  position: absolute;
+  left: 60%;
+  top: 17%;
+}
+#section7 {
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 43.75rem;
+}
+#urmoneyimg {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+#makeyourmoney {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+#makeyourmoney h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 3rem;
+  color: black;
+}
+#apy a {
+  color: black;
+}
+#section8 {
+  position: relative;
+  width: 100%;
+  height: 37.5rem;
+}
+#section8 div {
+  position: absolute;
+  top: 17%;
+  left: 10%;
+}
+#sec8img {
+  position: absolute;
+  margin-left: 43.75rem;
+}
+#sec8h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+#section9 {
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 43.75rem;
+}
+#section9 h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+#sec9img {
+  position: absolute;
+  top: 40%;
+  left: 17%;
+}
+#security {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+}
+#security h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+#section10 {
+  position: relative;
+  background-color: rgb(240, 251, 245);
+  width: 100%;
+  height: 37.5rem;
+}
+#getstarted {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+#reviews {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+}
+#email2 {
+  width: 16.25rem;
+  height: 3rem;
+  border-radius: 1.875rem;
+}
+::placeholder {
+  padding: 1.3rem 1.875rem;
+  font-size: 1.3rem;
+}
+#apy2 a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: 100rem;
+}
+ul a {
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+}
+ul a:hover {
+  text-decoration: none;
+  color: rgb(13, 146, 84);
+}
+#benefit {
+  position: absolute;
+  text-decoration: none;
+  top: 10%;
+  left: 10%;
+  line-height: 2.2rem;
+}
+#company {
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  line-height: 2.2rem;
+}
+footer h4 {
+  margin-left: 0.1rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+}
+#resources {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  line-height: 2.2rem;
+}
+#contact {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+#store {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  font-weight: lighter;
+}
+.applestore {
+  background-color: black;
+  color: #fff;
+  border-radius: 1.6rem;
+  width: 11.875rem;
+  height: 3rem;
+  /* margin-top: 280px;  */
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.playstore {
+  background-color: black;
+  color: #fff;
+  border-radius: 1.6rem;
+  width: 11.875rem;
+  height: 3rem;
+  margin-top: 1.3rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+hr {
+  position: absolute;
+  top: 90%;
+}
+#lastsec {
+  position: absolute;
+  color: rgb(69, 67, 67);
+  left: 10%;
+  right: 15%;
+  bottom: 5%;
+}
+#lastsec p a {
+  text-decoration: underline;
+  color: black;
+}
+
+@media (max-width: 820px) {
+  .nav {
+    background-color: white;
+    width: 100%;
+    height: 4.063rem;
+    position: fixed;
+    top: 0;
+    padding: 0.6rem 9.375rem;
+    margin: 0;
+    z-index: 2;
+    border-bottom: 1px solid rgb(212, 209, 209);
+  }
+  #logo {
+    position: absolute;
+    top: 15%;
+    left: 2rem;
+    margin-bottom: 1.8rem;
+  }
+  .btn {
+    position: absolute;
+    right: 5%;
+    width: 6.5rem;
+    border-radius: 0.63rem;
+  }
+  .login-btn,
+  .navlinks {
+    display: none;
+  }
+  #herosection {
+    background-image: url("https://www.chime.com/wp-content/uploads/2023/03/Web-01-App-Desktop-scaled.jpg");
+    width: 100vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    
+  }
+  #centeredtext h1 {
+  font-size: 3rem;
+  padding-right: 40px;
+  }
+  #email,#herobtn {
+    width: 100%;
+    height: 3rem;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+  }
+  .acc{
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+  form{
+  margin-right: 3rem; 
+  margin-top: 5rem; 
+  }
+  #imagesymbol{
+   margin-top: 0.1rem;
+   bottom: 0;
+   position: absolute; 
+   height: 5rem;
+   width: 100%;
+   /* color: rgb(25, 130, 25); */
+  }
+  #wjs{
+    position: absolute;
+    left: 5%;
+    top: 20%;  
+    width: 5rem;
+    height: 5vh;
+  }
+  #forbes {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 5rem;
+    height: 5vh;
+  }
+  #usatoday{
+  position: absolute;
+  right: 30%;
+  top: 20%;
+  width: 5rem;
+  height: 5vh; 
+  }
+  #nyt {
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    width: 5rem;
+    height: 5vh;
+  }
+  #tc {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    width: 5rem;
+    height: 5vh;
+  }
+  #section2{
+  width: 100%;
+  height: 60rem;  
+  }
+  #section2 div{
+  position: relative;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  }
+  #section2 div h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align:justify;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+    color: rgb(20, 94, 20);
+  }
+  #sec2img{
+   position: absolute;
+   width: 100%;
+   
+  }
+  #debit-card{
+  position: absolute;
+  left: 0;
+  width: 60%;
+ bottom: 90%;
+  }
+  #section3{
+  width: 100%;
+  height:70vh ;
+   background-color:rgb(204,242,210) ; 
+  }
+  #section3 img{
+  width: 100%;
+  margin-top: 15rem;
+  }
+  #getpaid{
+    position: absolute;
+    padding-left: 0.2rem;
+    
+   
+  }
+  #getpaid h1{
+  position: absolute;
+  font-size: 2.8rem;
+  font-weight: bold;
+  top: 0;
+  /* padding-bottom: 30rem; */
+  color: rgb(20, 94, 20);
+  /* margin-bottom: 50rem; */
+  text-align: start;
+  }
+  #getpaid p{
+ margin-top: 4rem;
+  }
+  #fees{
+  position: absolute;
+  left: 0;
+  width: 80vw;
+  top: 30rem;
+  }
+#section5{
+  position: relative;
+  width: 100%;
+  height: 50rem;
+  top: 10rem;
+  margin-top: 10rem;
+}
+#CreditBuilder h1{
+  position: absolute;
+  left: 0;
+  font-size: 2rem;
+  
+}
+#CreditBuilder p{
+  text-align: justify;
+  font-size: 0.97rem;
+  line-height: 1.8rem;
+  
+}
+#CreditBuilder div{
+  position: absolute;
+  left: 0;
+  top: 10.9rem;
+  
+}
+#Creditcard{
+  margin-top: 20rem;
+  width: 10px;
+  height: 10px;
+  left: 0;
+}
+#section6{
+ width: 100%; 
+ height: 60rem;
+}
+#payment{
+  position: absolute;
+  /* left: 0; */
+  top: 12.9rem; 
+}
+#phone{
+margin-top: 30rem;
+left: 8%;
+width: 40vw;
+height: 20vh;
+}
+#section7{
+  width: 100%; 
+  height: 50rem; 
+  margin-top: 12rem;
+}
+#makeyourmoney{
+left: 8%; 
+top: 0.1rem;
+}
+#urmoneyimg{
+margin-top: 15rem; 
+}
+#section8{
+  width: 100%; 
+  height: 40rem; 
+   
+}
+#section8 div{
+top: 10%;
+}
+#sec8img img{
+  position: absolute;
+right: 20rem;
+top: 18rem;
+margin-bottom: 10rem;
+
+}
+#section9{
+background-color: rgb(12, 81, 12); 
+color: #fff; 
+width: 100vw;
+height: 60rem;
+
+}
+#section9 h1{
+font-size: 2rem;
+}
+#sec9img{
+align-content: center;
+top: 17%;
+width: 300px;
+}
+#lock{
+width: 100%; 
+margin-bottom: 5rem;
+}
+#security{
+top: 29rem; 
+left: 10%;
+line-height: 2.0;
+}
+#section10{
+  width: 100vw;
+  height: 55rem;
+  margin-bottom: 5rem; 
+}
+#getstarted{
+  top: 10%;
+}
+#reviews{
+  top: 55%;
+  width: 100%;
+  left: 4%;
+   
+}
+footer{
+  position: relative;
+  width: 100%;
+ top: 0;
+  height: 70rem;
+  
+}
+#benefit{
+ position: absolute;
+ top: 0;
+ left: 5%;
+ padding-bottom: 50rem;
+ line-height: 1.8rem;
+}
+#company{
+  position: absolute;
+  top: 17rem;
+  left: 5%;
+  line-height: 1.8rem;
+}
+#resources{
+  position: absolute;
+  top: 30rem;
+  left: 5%;
+  line-height: 1.8rem; 
+}
+#contact{
+  position: absolute;
+  top: 50rem;
+  left: 5%;  
+}
+
+#store{
+  position: absolute;
+  top: 56rem;
+  left: 10%;
+  font-weight: lighter;  
+}
+#footer-paragh{
+ position: absolute; 
+ top: 0;
+}
+}
