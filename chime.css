@@ -72,9 +72,9 @@ button:hover {
   background-color: rgb(13, 146, 84);
 }
 #herosection {
-  background-image: url("https://www.chime.com/wp-content/uploads/2023/03/Web-01-App-Desktop-scaled.jpg");
+  background-image: url("./images/chimehero.webp");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   height: 130vh;
   width: 100vw;
@@ -88,6 +88,9 @@ button:hover {
 }
 #centeredtext h1 {
   font-size: 4.188rem;
+}
+form{
+margin: 3rem 0;  
 }
 #email {
   width: 33rem;
@@ -471,7 +474,7 @@ hr {
     display: none;
   }
   #herosection {
-    background-image: url("https://www.chime.com/wp-content/uploads/2023/03/Web-01-App-Desktop-scaled.jpg");
+    background-image: url("./images/chimehero.webp");
     width: 100vw;
     width: 100%;
     background-repeat: no-repeat;
